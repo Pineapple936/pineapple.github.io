@@ -271,7 +271,7 @@ nav{display: flex;
 
 @media(max-width: 1090px){
     .logo{
-        font-size: 4rem;
+        font-size: 5.5rem;
         padding-left: 6rem;
     }
     .categories{
@@ -320,5 +320,12 @@ nav{display: flex;
     }
     .card{
         width: 50%;
+        height: 30vh;
+    }
+    .card .title{
+        font-size: 5rem;
+    }
+    .card .text{
+        font-size: 3.3rem;
     }
 }
