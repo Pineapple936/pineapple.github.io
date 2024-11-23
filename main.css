@@ -36,8 +36,8 @@ nav{display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    border-left: 0.1rem solid #263fc6;
-    border-bottom: 0.1rem solid #263fc6;
+    border-left: 0.2rem solid #263fc6;
+    border-bottom: 0.2rem solid #263fc6;
     border-radius: 0px 0px 0px 2rem;
     font-size: 1.2em;
 }
@@ -163,7 +163,7 @@ nav{display: flex;
     align-items: center;
     width: 4rem;
     height: 4rem;
-    border: 0.3rem solid #263fc6;
+    border: 0.4rem solid #263fc6;
     border-radius: 50%;
     text-decoration: none;
     font-size: 2rem;
@@ -270,6 +270,10 @@ nav{display: flex;
 }
 
 @media(max-width: 1090px){
+    .logo{
+        font-size: 4rem;
+        padding-left: 6rem;
+    }
     .categories{
         position: absolute;
         top: 0px;
@@ -278,7 +282,7 @@ nav{display: flex;
         flex-direction: column;
         padding: 1rem;
         gap: 1rem;
-        font-size: 2.5rem;
+        font-size: 5rem;
     }
     .categories a:hover{
         text-decoration: none;
@@ -297,12 +301,17 @@ nav{display: flex;
         height: 40vh;
     }
     .home-photo img{
-        width: 40rem;
+        width: 90%;
     }
     .home-info .info{
         box-sizing: border-box;
         padding: 2rem;
-        font-size: 2rem;
+        font-size: 4.3rem;
+    }
+    .home-info .social-icons a{
+        width: 10rem;
+        height: 10rem;
+        font-size: 5rem;
     }
     .skills{
         flex-direction: column;
