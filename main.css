@@ -320,7 +320,7 @@ nav{display: flex;
     }
     .card{
         width: 50%;
-        height: 30vh;
+        height: 25vh;
     }
     .card .title{
         font-size: 5rem;
