@@ -104,6 +104,7 @@ nav{display: flex;
 }
 
 .info .typing-text{
+    width: 100%;
     font-size: 1.4em;
     font-weight: bold;
 }
