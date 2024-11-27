@@ -21,24 +21,26 @@ body{
     color: var(--font-color);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.logo, .categories{
-    font-size: 2.3rem;
+body::-webkit-progress-bar {
+    background-color: #0366d6; /* Основной цвет полосы */
+}
+
+body::-webkit-progress-value {
+    background-color: #007bff; /* Цвет заполненной части полосы */
 }
 .logo{
     box-sizing: border-box;
+    font-size: 4rem;
+    font-weight: bold;
     padding: 1rem 0rem 0rem 1rem;
     color: var(--main-color);
 }
-.logo a{
-    text-decoration: none;
-    color: var(--main-color)
-}
 .categories{
+    font-size: 2.3rem;
     position: absolute;
     top: 0%;
     right: 0%;
     display: flex;
-    flex-wrap: wrap;
     gap: 1rem;
     box-sizing: border-box;
     border-left: 0.2rem solid var(--main-color);
@@ -160,7 +162,7 @@ body{
 
 .social-icons{
     display: inline-flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .social-icons a{
